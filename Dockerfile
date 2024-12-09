@@ -2,7 +2,7 @@
 # Kyle Manna <kyle@kylemanna.com>
 
 # Smallest base image
-FROM alpine:3.20
+FROM alpine:3.21
 
 RUN echo "http://dl-4.alpinelinux.org/alpine/edge/community/" >> /etc/apk/repositories && \
     echo "http://dl-4.alpinelinux.org/alpine/edge/testing/" >> /etc/apk/repositories && \
